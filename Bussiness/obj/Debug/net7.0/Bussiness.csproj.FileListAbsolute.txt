@@ -1,0 +1,17 @@
+/Users/barangulacar/Projects/FinalProject/Bussiness/bin/Debug/net7.0/Bussiness.deps.json
+/Users/barangulacar/Projects/FinalProject/Bussiness/bin/Debug/net7.0/Bussiness.dll
+/Users/barangulacar/Projects/FinalProject/Bussiness/bin/Debug/net7.0/Bussiness.pdb
+/Users/barangulacar/Projects/FinalProject/Bussiness/bin/Debug/net7.0/DataAccess.dll
+/Users/barangulacar/Projects/FinalProject/Bussiness/bin/Debug/net7.0/Entities.dll
+/Users/barangulacar/Projects/FinalProject/Bussiness/bin/Debug/net7.0/DataAccess.pdb
+/Users/barangulacar/Projects/FinalProject/Bussiness/bin/Debug/net7.0/Entities.pdb
+/Users/barangulacar/Projects/FinalProject/Bussiness/obj/Debug/net7.0/Bussiness.csproj.AssemblyReference.cache
+/Users/barangulacar/Projects/FinalProject/Bussiness/obj/Debug/net7.0/Bussiness.GeneratedMSBuildEditorConfig.editorconfig
+/Users/barangulacar/Projects/FinalProject/Bussiness/obj/Debug/net7.0/Bussiness.AssemblyInfoInputs.cache
+/Users/barangulacar/Projects/FinalProject/Bussiness/obj/Debug/net7.0/Bussiness.AssemblyInfo.cs
+/Users/barangulacar/Projects/FinalProject/Bussiness/obj/Debug/net7.0/Bussiness.csproj.CoreCompileInputs.cache
+/Users/barangulacar/Projects/FinalProject/Bussiness/obj/Debug/net7.0/Bussiness.csproj.CopyComplete
+/Users/barangulacar/Projects/FinalProject/Bussiness/obj/Debug/net7.0/Bussiness.dll
+/Users/barangulacar/Projects/FinalProject/Bussiness/obj/Debug/net7.0/refint/Bussiness.dll
+/Users/barangulacar/Projects/FinalProject/Bussiness/obj/Debug/net7.0/Bussiness.pdb
+/Users/barangulacar/Projects/FinalProject/Bussiness/obj/Debug/net7.0/ref/Bussiness.dll

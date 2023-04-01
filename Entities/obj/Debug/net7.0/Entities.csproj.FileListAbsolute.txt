@@ -1,0 +1,12 @@
+/Users/barangulacar/Projects/FinalProject/Entities/bin/Debug/net7.0/Entities.deps.json
+/Users/barangulacar/Projects/FinalProject/Entities/bin/Debug/net7.0/Entities.dll
+/Users/barangulacar/Projects/FinalProject/Entities/bin/Debug/net7.0/Entities.pdb
+/Users/barangulacar/Projects/FinalProject/Entities/obj/Debug/net7.0/Entities.csproj.AssemblyReference.cache
+/Users/barangulacar/Projects/FinalProject/Entities/obj/Debug/net7.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/barangulacar/Projects/FinalProject/Entities/obj/Debug/net7.0/Entities.AssemblyInfoInputs.cache
+/Users/barangulacar/Projects/FinalProject/Entities/obj/Debug/net7.0/Entities.AssemblyInfo.cs
+/Users/barangulacar/Projects/FinalProject/Entities/obj/Debug/net7.0/Entities.csproj.CoreCompileInputs.cache
+/Users/barangulacar/Projects/FinalProject/Entities/obj/Debug/net7.0/Entities.dll
+/Users/barangulacar/Projects/FinalProject/Entities/obj/Debug/net7.0/refint/Entities.dll
+/Users/barangulacar/Projects/FinalProject/Entities/obj/Debug/net7.0/Entities.pdb
+/Users/barangulacar/Projects/FinalProject/Entities/obj/Debug/net7.0/ref/Entities.dll
