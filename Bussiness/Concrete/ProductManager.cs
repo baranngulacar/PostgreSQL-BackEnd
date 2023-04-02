@@ -23,6 +23,15 @@ namespace Bussiness.Concrete
 
             return _productDal.GetAll();
         }
+
+        public Product GetById(int id)
+        {
+            var res = _productDal.Get(c => c.ProductId == id);
+            if(res != null && res.ProductId != 0) {
+                return res;
+            }
+            return null;
+        }
     }
 }
 

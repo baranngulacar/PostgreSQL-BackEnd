@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq.Expressions;
 using DataAccess.Abstract;
 using Entities.Concrete;
 
@@ -17,11 +18,11 @@ namespace DataAccess.Concrete.InMemory
             _products = new List<Product>
 
             {
-                new Product{ProductID = 1, CategoryID = 1, ProductName ="Bardak", UnitPrice = 15, UnitsInStock = 15},
-                new Product{ProductID = 2, CategoryID = 1, ProductName ="Kamera", UnitPrice = 500, UnitsInStock = 3},
-                new Product{ProductID = 3, CategoryID = 2, ProductName ="Telefon", UnitPrice = 1500, UnitsInStock = 2},
-                new Product{ProductID = 4, CategoryID = 2, ProductName ="Klavye", UnitPrice = 150, UnitsInStock = 65},
-                new Product{ProductID = 5, CategoryID = 2, ProductName ="Fare", UnitPrice = 85, UnitsInStock = 1}
+                new Product{ProductId = 1, CategoryId = 1, ProductName ="Bardak", UnitPrice = 15, UnitsInStock = 15},
+                new Product{ProductId = 2, CategoryId = 1, ProductName ="Kamera", UnitPrice = 500, UnitsInStock = 3},
+                new Product{ProductId = 3, CategoryId = 2, ProductName ="Telefon", UnitPrice = 1500, UnitsInStock = 2},
+                new Product{ProductId = 4, CategoryId = 2, ProductName ="Klavye", UnitPrice = 150, UnitsInStock = 65},
+                new Product{ProductId = 5, CategoryId = 2, ProductName ="Fare", UnitPrice = 85, UnitsInStock = 1}
             };
         }
         public void Add(Product product)
@@ -36,14 +37,19 @@ namespace DataAccess.Concrete.InMemory
 
             foreach (var p in _products)
             {
-                if (product.ProductID == p.ProductID)
+                if (product.ProductId == p.ProductId)
                 {
                     productToDelete = p;
                 }
 
                 _products.Remove(productToDelete);
             }
-            productToDelete = _products.SingleOrDefault(p=> p.ProductID == product.ProductID);
+            productToDelete = _products.SingleOrDefault(p=> p.ProductId == product.ProductId);
+        }
+
+        public Product Get(Expression<Func<Product, bool>> filter)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Product> GetAll()
@@ -51,18 +57,24 @@ namespace DataAccess.Concrete.InMemory
             return _products;
         }
 
+        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
+        {
+
+            return _products;
+        }
+
         public List<Product> GetByCategory(int categoryId)
         {
-            return _products.Where(p => p.CategoryID == categoryId).ToList();
+            return _products.Where(p => p.CategoryId == categoryId).ToList();
         }
 
         public void Update(Product product)
         {   //Gönderdiğim ürün ID'sine sahip olan listedeki ürünü bul.
-            productToUpdate = _products.SingleOrDefault(p => p.ProductID == product.ProductID);
+            productToUpdate = _products.SingleOrDefault(p => p.ProductId == product.ProductId);
 
             productToUpdate.ProductName = product.ProductName;
 
-            productToUpdate.CategoryID = product.CategoryID;
+            productToUpdate.CategoryId = product.CategoryId;
 
             productToUpdate.UnitPrice = product.UnitPrice;
 
