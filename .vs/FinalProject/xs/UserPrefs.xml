@@ -1,27 +1,30 @@
 ﻿<Properties StartupConfiguration="{8B6762ED-3D0B-486C-85A6-74292F1E7D9B}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Bussiness/Concrete/ProductManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Program.cs">
     <Files>
-      <File FileName="Bussiness/Concrete/ProductManager.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Startup.cs" Line="54" Column="1" />
+      <File FileName="Bussiness/DependencyResolvers/Autofac/AutofacBusinessModule.cs" Line="20" Column="1" />
+      <File FileName="WebAPI/Program.cs" Line="12" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinalProject" expanded="True">
             <Node name="Bussiness" expanded="True">
-              <Node name="Concrete" expanded="True" />
+              <Node name="DependencyResolvers" expanded="True">
+                <Node name="Autofac" expanded="True" />
+              </Node>
             </Node>
-            <Node name="Core" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
