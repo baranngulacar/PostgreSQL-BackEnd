@@ -1,0 +1,355 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/barangulacar/Projects/FinalProject/WebAPI/WebAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/barangulacar/Projects/FinalProject/Bussiness/Bussiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/barangulacar/Projects/FinalProject/Bussiness/Bussiness.csproj",
+        "projectName": "Bussiness",
+        "projectPath": "/Users/barangulacar/Projects/FinalProject/Bussiness/Bussiness.csproj",
+        "packagesPath": "/Users/barangulacar/.nuget/packages/",
+        "outputPath": "/Users/barangulacar/Projects/FinalProject/Bussiness/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/barangulacar/Projects/FinalProject/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/FinalProject/DataAccess/DataAccess.csproj"
+              },
+              "/Users/barangulacar/Projects/FinalProject/Entities/Entities.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/FinalProject/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/barangulacar/Projects/FinalProject/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/barangulacar/Projects/FinalProject/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/barangulacar/Projects/FinalProject/Core/Core.csproj",
+        "packagesPath": "/Users/barangulacar/.nuget/packages/",
+        "outputPath": "/Users/barangulacar/Projects/FinalProject/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/barangulacar/Projects/FinalProject/DataAccess/DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/barangulacar/Projects/FinalProject/DataAccess/DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "/Users/barangulacar/Projects/FinalProject/DataAccess/DataAccess.csproj",
+        "packagesPath": "/Users/barangulacar/.nuget/packages/",
+        "outputPath": "/Users/barangulacar/Projects/FinalProject/DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/barangulacar/Projects/FinalProject/Core/Core.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/FinalProject/Core/Core.csproj"
+              },
+              "/Users/barangulacar/Projects/FinalProject/Entities/Entities.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/FinalProject/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/barangulacar/Projects/FinalProject/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/barangulacar/Projects/FinalProject/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/barangulacar/Projects/FinalProject/Entities/Entities.csproj",
+        "packagesPath": "/Users/barangulacar/.nuget/packages/",
+        "outputPath": "/Users/barangulacar/Projects/FinalProject/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/barangulacar/Projects/FinalProject/Core/Core.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/FinalProject/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/barangulacar/Projects/FinalProject/WebAPI/WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/barangulacar/Projects/FinalProject/WebAPI/WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "/Users/barangulacar/Projects/FinalProject/WebAPI/WebAPI.csproj",
+        "packagesPath": "/Users/barangulacar/.nuget/packages/",
+        "outputPath": "/Users/barangulacar/Projects/FinalProject/WebAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/barangulacar/Projects/FinalProject/Bussiness/Bussiness.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/FinalProject/Bussiness/Bussiness.csproj"
+              },
+              "/Users/barangulacar/Projects/FinalProject/Core/Core.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/FinalProject/Core/Core.csproj"
+              },
+              "/Users/barangulacar/Projects/FinalProject/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/FinalProject/DataAccess/DataAccess.csproj"
+              },
+              "/Users/barangulacar/Projects/FinalProject/Entities/Entities.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/FinalProject/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

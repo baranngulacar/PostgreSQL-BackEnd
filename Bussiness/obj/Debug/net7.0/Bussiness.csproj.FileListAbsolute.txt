@@ -15,3 +15,5 @@
 /Users/barangulacar/Projects/FinalProject/Bussiness/obj/Debug/net7.0/refint/Bussiness.dll
 /Users/barangulacar/Projects/FinalProject/Bussiness/obj/Debug/net7.0/Bussiness.pdb
 /Users/barangulacar/Projects/FinalProject/Bussiness/obj/Debug/net7.0/ref/Bussiness.dll
+/Users/barangulacar/Projects/FinalProject/Bussiness/bin/Debug/net7.0/Core.dll
+/Users/barangulacar/Projects/FinalProject/Bussiness/bin/Debug/net7.0/Core.pdb

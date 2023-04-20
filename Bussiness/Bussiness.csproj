@@ -9,13 +9,23 @@
   <ItemGroup>
     <None Remove="Abstract\" />
     <None Remove="Concrete\" />
+    <None Remove="Constants\" />
+    <None Remove="DependencyResolvers\" />
+    <None Remove="DependencyResolvers\Autofac\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstract\" />
     <Folder Include="Concrete\" />
+    <Folder Include="Constants\" />
+    <Folder Include="DependencyResolvers\" />
+    <Folder Include="DependencyResolvers\Autofac\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
     <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.1.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.0" />
   </ItemGroup>
 </Project>

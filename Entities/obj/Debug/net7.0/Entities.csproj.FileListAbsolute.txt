@@ -10,3 +10,6 @@
 /Users/barangulacar/Projects/FinalProject/Entities/obj/Debug/net7.0/refint/Entities.dll
 /Users/barangulacar/Projects/FinalProject/Entities/obj/Debug/net7.0/Entities.pdb
 /Users/barangulacar/Projects/FinalProject/Entities/obj/Debug/net7.0/ref/Entities.dll
+/Users/barangulacar/Projects/FinalProject/Entities/bin/Debug/net7.0/Core.dll
+/Users/barangulacar/Projects/FinalProject/Entities/bin/Debug/net7.0/Core.pdb
+/Users/barangulacar/Projects/FinalProject/Entities/obj/Debug/net7.0/Entities.csproj.CopyComplete

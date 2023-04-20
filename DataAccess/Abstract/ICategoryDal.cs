@@ -1,19 +1,11 @@
-﻿using System;
+﻿using Core.DataAccess;
+using System;
 using Entities.Concrete;
 
 namespace DataAccess.Abstract
 {
-	public interface ICategoryDal
-	{
-        List<Category> GetAll();
-
-        void Add(Category category);
-
-        void Update(Category category);
-
-        void Delete(Category category);
-
-        List<Category> GetByCategory(int categoryId);
+    public interface ICategoryDal : IEntityRepository<Category>
+    {
     }
 }
 
