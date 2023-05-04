@@ -1,10 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Bussiness.Abstract;
-using Bussiness.Concrete;
-using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using Microsoft.AspNetCore.Mvc;
 
@@ -55,7 +49,7 @@ namespace WebAPI.Controllers
 
             if (result.Succes)
             {
-                return Ok();
+                return Ok(result);// result içinde success dönecek. o da frontend tarafýnda iþlemin sonucunu verecek.
             }
             return BadRequest(result);
         }

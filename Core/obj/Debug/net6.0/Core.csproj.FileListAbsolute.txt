@@ -1,0 +1,12 @@
+C:\Projects\DotNet\PostgreSQL-BackEnd\Core\bin\Debug\net6.0\Core.deps.json
+C:\Projects\DotNet\PostgreSQL-BackEnd\Core\bin\Debug\net6.0\Core.dll
+C:\Projects\DotNet\PostgreSQL-BackEnd\Core\bin\Debug\net6.0\Core.pdb
+C:\Projects\DotNet\PostgreSQL-BackEnd\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+C:\Projects\DotNet\PostgreSQL-BackEnd\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DotNet\PostgreSQL-BackEnd\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+C:\Projects\DotNet\PostgreSQL-BackEnd\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+C:\Projects\DotNet\PostgreSQL-BackEnd\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+C:\Projects\DotNet\PostgreSQL-BackEnd\Core\obj\Debug\net6.0\Core.dll
+C:\Projects\DotNet\PostgreSQL-BackEnd\Core\obj\Debug\net6.0\refint\Core.dll
+C:\Projects\DotNet\PostgreSQL-BackEnd\Core\obj\Debug\net6.0\Core.pdb
+C:\Projects\DotNet\PostgreSQL-BackEnd\Core\obj\Debug\net6.0\ref\Core.dll
