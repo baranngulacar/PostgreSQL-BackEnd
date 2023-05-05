@@ -37,7 +37,7 @@ namespace Core.DataAccess.EntityFramework
             }
         }
 
-        public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter = null)
+        public List<TEntity> GetAll(Expression<Func<TEntity, bool>>? filter = null)
         {
             using (TContext context = new TContext())
             {

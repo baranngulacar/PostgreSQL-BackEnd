@@ -7653,40 +7653,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\idrisDelen\\.nuget\\packages\\": {}
+    "/Users/barangulacar/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\DotNet\\PostgreSQL-BackEnd\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/ConsoleUI/ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "C:\\Projects\\DotNet\\PostgreSQL-BackEnd\\ConsoleUI\\ConsoleUI.csproj",
-      "packagesPath": "C:\\Users\\idrisDelen\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\DotNet\\PostgreSQL-BackEnd\\ConsoleUI\\obj\\",
+      "projectPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/ConsoleUI/ConsoleUI.csproj",
+      "packagesPath": "/Users/barangulacar/.nuget/packages/",
+      "outputPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/ConsoleUI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\idrisDelen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projects\\DotNet\\PostgreSQL-BackEnd\\Bussiness\\Bussiness.csproj": {
-              "projectPath": "C:\\Projects\\DotNet\\PostgreSQL-BackEnd\\Bussiness\\Bussiness.csproj"
+            "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj": {
+              "projectPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj"
             },
-            "C:\\Projects\\DotNet\\PostgreSQL-BackEnd\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Projects\\DotNet\\PostgreSQL-BackEnd\\DataAccess\\DataAccess.csproj"
+            "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj": {
+              "projectPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj"
             },
-            "C:\\Projects\\DotNet\\PostgreSQL-BackEnd\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Projects\\DotNet\\PostgreSQL-BackEnd\\Entities\\Entities.csproj"
+            "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj": {
+              "projectPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj"
             }
           }
         }
@@ -7716,7 +7714,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
       }
     }
   }

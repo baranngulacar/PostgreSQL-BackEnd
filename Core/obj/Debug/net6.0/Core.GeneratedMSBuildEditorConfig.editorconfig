@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Core
-build_property.ProjectDir = C:\Projects\DotNet\PostgreSQL-BackEnd\Core\
+build_property.ProjectDir = /Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Core/

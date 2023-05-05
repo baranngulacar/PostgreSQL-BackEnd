@@ -1,14 +1,8 @@
-﻿<Properties StartupConfiguration="{8B6762ED-3D0B-486C-85A6-74292F1E7D9B}|https">
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Startup.cs">
+﻿<Properties StartupConfiguration="{B2BB6DCF-CDF9-49DF-B005-C8ABE40649A9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bussiness/DependencyResolvers/Autofac/AutofacBusinessModule.cs">
     <Files>
-      <File FileName="WebAPI/Startup.cs" Line="54" Column="1" />
-      <File FileName="Bussiness/DependencyResolvers/Autofac/AutofacBusinessModule.cs" />
-      <File FileName="WebAPI/Program.cs" Line="12" Column="11" />
+      <File FileName="Bussiness/DependencyResolvers/Autofac/AutofacBusinessModule.cs" Line="8" Column="48" />
+      <File FileName="WebAPI/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,18 +10,21 @@
           <Node name="FinalProject" expanded="True">
             <Node name="Bussiness" expanded="True">
               <Node name="DependencyResolvers" expanded="True">
-                <Node name="Autofac" expanded="True" />
+                <Node name="Autofac" expanded="True">
+                  <Node name="AutofacBusinessModule.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
-            <Node name="WebAPI" expanded="True">
-              <Node name="Startup.cs" selected="True" />
-            </Node>
+            <Node name="WebAPI" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

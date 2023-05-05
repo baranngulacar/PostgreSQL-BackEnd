@@ -29,6 +29,19 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
+        [HttpGet("getalldto")]
+        public IActionResult GetAllDto()
+        {
+            var result = _productService.GetProductDetails();
+
+            if (result.Succes)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest(result);
+        }
+
         [HttpGet("getbyid")]
         public IActionResult Get(int id)
         {
@@ -49,7 +62,7 @@ namespace WebAPI.Controllers
 
             if (result.Succes)
             {
-                return Ok(result);// result içinde success dönecek. o da frontend tarafýnda iþlemin sonucunu verecek.
+                return Ok(result);// result iï¿½inde success dï¿½necek. o da frontend tarafï¿½nda iï¿½lemin sonucunu verecek.
             }
             return BadRequest(result);
         }

@@ -11,7 +11,7 @@ namespace Bussiness.Concrete
 {
     public class ProductManager : IProductService
     {
-        IProductDal _productDal;
+        private readonly IProductDal _productDal;
 
 
         public ProductManager(IProductDal productDal)
@@ -21,9 +21,9 @@ namespace Bussiness.Concrete
 
         public IResult Add(Product product)
         {
-            //İşKodlarımız - BussinessCodes
+            //İşKodlarımız - BussinessCodes 
 
-            if (product.ProductName.Length<2)
+            if (product.ProductName.Length < 2)
             {
                 return new ErrorResult(Messages.ProductNameInvalid);
             }
@@ -36,42 +36,44 @@ namespace Bussiness.Concrete
 
         public IDataResult<List<Product>> GetAll()
         {
+            var data = _productDal.GetAll();
             if (DateTime.Now.Hour == 22)
             {
-                return new ErrorDataResult <List<Product>>(Messages.MaintenanceTime);
+                return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
 
-            return new SuccessDataResult<List<Product>>(_productDal.GetAll()); 
+            return new SuccessDataResult<List<Product>>(data, "Ürün listesi getirildi.");
         }
 
 
         public IDataResult<List<Product>> GetAllByCategoryId(int id)
         {
-            return new SuccessDataResult <List<Product>>(_productDal.GetAll(p=>p.CategoryId == id));
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id));
         }
 
 
         public IDataResult<Product> GetById(int ProductId)
         {
-            return new SuccessDataResult<Product>(_productDal.Get(p=>p.ProductId == ProductId));
+            return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == ProductId));
         }
 
 
         public IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max)
         {
-            return new SuccessDataResult <List<Product>> (_productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max));
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max));
         }
 
 
         public IDataResult<List<ProductDetailDto>> GetProductDetails()
         {
-            return new SuccessDataResult<List<ProductDetailDto>> (_productDal.GetProductDetails());
+            return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
         }
 
         IDataResult<List<ProductDetailDto>> IProductService.GetProductDetails()
         {
-            throw new NotImplementedException();
+            var data = _productDal.GetProductDetails();
+
+            return new SuccessDataResult<List<ProductDetailDto>>(data, "Dto listesi getirildi");
         }
     }
 }
-
