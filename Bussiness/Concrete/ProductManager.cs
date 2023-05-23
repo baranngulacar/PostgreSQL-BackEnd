@@ -1,11 +1,14 @@
 ﻿using System;
 using Bussiness.Abstract;
 using Bussiness.Constants;
+using Bussiness.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 
 namespace Bussiness.Concrete
 {
@@ -21,12 +24,10 @@ namespace Bussiness.Concrete
 
         public IResult Add(Product product)
         {
-            //İşKodlarımız - BussinessCodes 
+            //İşKodlarımız - BussinessCodes
+            //Validation - Kurallarımız, Doğrulama
 
-            if (product.ProductName.Length < 2)
-            {
-                return new ErrorResult(Messages.ProductNameInvalid);
-            }
+            ValidationTool.Validate(new ProductValidator(),product);
 
             _productDal.Add(product);
 

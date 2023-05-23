@@ -124,3 +124,5 @@ C:/Projects/DotNet/PostgreSQL-BackEnd/ConsoleUI/obj/Debug/net6.0/ref/ConsoleUI.d
 /Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/ConsoleUI/obj/Debug/net6.0/ConsoleUI.pdb
 /Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/ConsoleUI/obj/Debug/net6.0/ConsoleUI.genruntimeconfig.cache
 /Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/ConsoleUI/obj/Debug/net6.0/ref/ConsoleUI.dll
+/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/ConsoleUI/bin/Debug/net6.0/FluentValidation.dll
+/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/ConsoleUI/bin/Debug/net6.0/Autofac.Extensions.DependencyInjection.dll

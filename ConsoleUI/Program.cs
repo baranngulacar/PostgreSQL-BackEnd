@@ -47,6 +47,7 @@ class Program
             Console.WriteLine(product.ProductName + "/" + product.CategoryName);
         }
 
-        Console.WriteLine("-----------------------------------");
+        Console.WriteLine("-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");    
     }
 }
+

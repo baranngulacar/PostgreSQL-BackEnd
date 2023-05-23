@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "3K5n1l3ChA19pdVlH9ru2A9RD867st+oewkAVT7L8YQEIULnlYp5Ky3w+oOcncnMVYF2VsK1p0AYmAkS4cHGXw==",
+  "dgSpecHash": "QZBDY/qF7Dic9oWsZRzXnZLY0upZAWQ1qBrXSo3gR0o2xHMoMOJ4pXvDVAI2q3Ql1hEqE52qIBlvuS9jZ9zCig==",
   "success": true,
   "projectFilePath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/ConsoleUI/ConsoleUI.csproj",
   "expectedPackageFiles": [
-    "/Users/barangulacar/.nuget/packages/autofac/6.1.0/autofac.6.1.0.nupkg.sha512",
+    "/Users/barangulacar/.nuget/packages/autofac/7.0.1/autofac.7.0.1.nupkg.sha512",
+    "/Users/barangulacar/.nuget/packages/autofac.extensions.dependencyinjection/8.0.0/autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/autofac.extras.dynamicproxy/6.0.0/autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
+    "/Users/barangulacar/.nuget/packages/fluentvalidation/9.5.1/fluentvalidation.9.5.1.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/microsoft.data.sqlclient/1.1.3/microsoft.data.sqlclient.1.1.3.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/microsoft.entityframeworkcore/7.0.3/microsoft.entityframeworkcore.7.0.3.nupkg.sha512",

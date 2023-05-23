@@ -1,32 +1,31 @@
 ﻿<Properties StartupConfiguration="{B2BB6DCF-CDF9-49DF-B005-C8ABE40649A9}|Default">
-  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/EntityFramework/NorthwindContext.cs">
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Entities/Concrete/Product.cs">
     <Files>
-      <File FileName="Bussiness/DependencyResolvers/Autofac/AutofacBusinessModule.cs" Line="23" Column="1" />
-      <File FileName="DataAccess/Concrete/EntityFramework/NorthwindContext.cs" Line="26" Column="1" />
+      <File FileName="Entities/Concrete/Product.cs" Line="28" Column="1" />
+      <File FileName="Bussiness/ValidationRules/FluentValidation/ProductValidator.cs" Line="31" Column="1" />
+      <File FileName="Bussiness/Concrete/ProductManager.cs" Line="16" Column="6" />
+      <File FileName="Core/CrossCuttingConcerns/Validation/ValidationTool.cs" Line="20" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinalProject" expanded="True">
             <Node name="Bussiness" expanded="True">
-              <Node name="Abstract" expanded="True" />
-              <Node name="DependencyResolvers" expanded="True">
-                <Node name="Autofac" expanded="True" />
+              <Node name="Concrete" expanded="True" />
+              <Node name="ValidationRules" expanded="True">
+                <Node name="FluentValidation" expanded="True" />
               </Node>
             </Node>
-            <Node name="DataAccess" expanded="True">
-              <Node name="Abstract" expanded="True" />
+            <Node name="Core" expanded="True">
+              <Node name="CrossCuttingConcerns" expanded="True">
+                <Node name="Validation" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Entities" expanded="True">
               <Node name="Concrete" expanded="True">
-                <Node name="EntityFramework" expanded="True">
-                  <Node name="NorthwindContext.cs" selected="True" />
-                </Node>
+                <Node name="Product.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -35,4 +34,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
