@@ -2,6 +2,7 @@
 using Bussiness.Abstract;
 using Bussiness.Constants;
 using Bussiness.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -22,12 +23,12 @@ namespace Bussiness.Concrete
             _productDal = productDal;
         }
 
+        [ValidationAspect(typeof(ProductValidator))]
+
         public IResult Add(Product product)
         {
             //İşKodlarımız - BussinessCodes
             //Validation - Kurallarımız, Doğrulama
-
-            ValidationTool.Validate(new ProductValidator(),product);
 
             _productDal.Add(product);
 
