@@ -25,17 +25,27 @@ namespace Bussiness.Concrete
 
         //Add methodu, yeni bir ürün eklemek için kullanılır.
         [ValidationAspect(typeof(ProductValidator))] 
-
         public IResult Add(Product product)
         {
             //İşKodlarımız - BussinessCodes
             //Validation - Kurallarımız, Doğrulama
 
             //Ürünü veritabanına ekliyoruz
-            _productDal.Add(product);
+            
+
+            if (CheckIfProductCountOfCategoryCorrect(product.CategoryId).Succes)
+            {
+                if (CheckIfProductNameExists(product.ProductName).Succes)
+                {
+                    _productDal.Add(product);
+
+                    return new SuccessResult(Messages.ProductAdded);
+                } 
+            }
+
+            return new ErrorResult();
 
             //Başarılı sonucu döndürüyoruz
-            return new SuccessResult(Messages.ProductAdded);
         }
 
         //GetAll methodu, tüm ürünleri listeler
@@ -99,6 +109,17 @@ namespace Bussiness.Concrete
             if (result >= 15)
             {
                 return new ErrorResult(Messages.ProductCountOfCategoryError);
+            }
+
+            return new SuccessResult();
+        }
+
+        private IResult CheckIfProductNameExists(string productName)
+        {
+            var result = _productDal.GetAll(p => p.ProductName == productName).Any();
+            if (result)
+            {
+                return new ErrorResult(Messages.ProductNameAlreadyExsists);
             }
 
             return new SuccessResult();

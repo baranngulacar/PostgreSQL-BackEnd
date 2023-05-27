@@ -14,5 +14,7 @@ namespace Bussiness.Constants
 		public static string ProductsListed = "Ürünler listelendi";
 
 		public static string ProductCountOfCategoryError = "Max 15 olabilir!";
+
+		public static string ProductNameAlreadyExsists = "Bu isimde zaten bir ürün var!";
     }
 }
