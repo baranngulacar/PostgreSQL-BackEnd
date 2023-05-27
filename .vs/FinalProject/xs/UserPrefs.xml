@@ -1,40 +1,19 @@
 ﻿<Properties StartupConfiguration="{B2BB6DCF-CDF9-49DF-B005-C8ABE40649A9}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Entities/Concrete/Product.cs">
-    <Files>
-      <File FileName="Entities/Concrete/Product.cs" Line="28" Column="1" />
-      <File FileName="Bussiness/ValidationRules/FluentValidation/ProductValidator.cs" Line="31" Column="1" />
-      <File FileName="Bussiness/Concrete/ProductManager.cs" Line="16" Column="6" />
-      <File FileName="Core/CrossCuttingConcerns/Validation/ValidationTool.cs" Line="20" Column="1" />
-    </Files>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FinalProject" expanded="True">
-            <Node name="Bussiness" expanded="True">
-              <Node name="Concrete" expanded="True" />
-              <Node name="ValidationRules" expanded="True">
-                <Node name="FluentValidation" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="Core" expanded="True">
-              <Node name="CrossCuttingConcerns" expanded="True">
-                <Node name="Validation" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="Entities" expanded="True">
-              <Node name="Concrete" expanded="True">
-                <Node name="Product.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="FinalProject" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

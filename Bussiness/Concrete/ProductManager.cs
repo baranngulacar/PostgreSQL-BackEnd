@@ -12,62 +12,72 @@ using Entities.DTOs;
 using FluentValidation;
 
 namespace Bussiness.Concrete
-{
+{   //Ürün iş mantığını yöneten sınıfımız
     public class ProductManager : IProductService
     {
         private readonly IProductDal _productDal;
 
-
+        //Constructor methodumuz, bağımlılıkları enjekte ediyoruz.
         public ProductManager(IProductDal productDal)
         {
             _productDal = productDal;
         }
 
-        [ValidationAspect(typeof(ProductValidator))]
+        //Add methodu, yeni bir ürün eklemek için kullanılır.
+        [ValidationAspect(typeof(ProductValidator))] 
 
         public IResult Add(Product product)
         {
             //İşKodlarımız - BussinessCodes
             //Validation - Kurallarımız, Doğrulama
 
+            //Ürünü veritabanına ekliyoruz
             _productDal.Add(product);
 
+            //Başarılı sonucu döndürüyoruz
             return new SuccessResult(Messages.ProductAdded);
         }
 
-
+        //GetAll methodu, tüm ürünleri listeler
         public IDataResult<List<Product>> GetAll()
         {
             var data = _productDal.GetAll();
+
+            //Eğer şu an saat 22.00 ise, bakım zamanı hatası döndürüyoruz
             if (DateTime.Now.Hour == 22)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
 
+            //Başarılı sonucu ve verileri döndürüyoruz
             return new SuccessDataResult<List<Product>>(data, "Ürün listesi getirildi.");
         }
 
-
+        //GetAllByCategoryId methodu, belirli bir kategoriye ait ürünleri listeler
         public IDataResult<List<Product>> GetAllByCategoryId(int id)
         {
+            //Belirli bir kategoriye ait ürünleri veritabanından alıyoruz.
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id));
         }
 
-
+        //GetById methodu, belirli bir ürünün detaylarını getirir.
         public IDataResult<Product> GetById(int ProductId)
         {
+            //Belirli bir ürünün detaylarını veritabanından alıyoruz.
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == ProductId));
         }
 
-
+        //GetByUnitPrice methodu, belirli bir fiyat aralığındaki ürünleri getirir.
         public IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max)
         {
+            //Belrili bir fiyat aralığındaki ürünleri veritabanından alıyoruz.
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max));
         }
 
-
+        //GetProductDetails methodu, ürünlerin detaylı bilgilerini getirir
         public IDataResult<List<ProductDetailDto>> GetProductDetails()
         {
+            // Ürünlerin detaylı bilgilerini veritabanından alıyoruz
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
         }
 
