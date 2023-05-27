@@ -81,11 +81,27 @@ namespace Bussiness.Concrete
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
         }
 
+        public IResult Update(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
         IDataResult<List<ProductDetailDto>> IProductService.GetProductDetails()
         {
             var data = _productDal.GetProductDetails();
 
             return new SuccessDataResult<List<ProductDetailDto>>(data, "Dto listesi getirildi");
+        }
+
+        private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)
+        {
+            var result = _productDal.GetAll(p => p.CategoryId == categoryId).Count;
+            if (result >= 15)
+            {
+                return new ErrorResult(Messages.ProductCountOfCategoryError);
+            }
+
+            return new SuccessResult();
         }
     }
 }

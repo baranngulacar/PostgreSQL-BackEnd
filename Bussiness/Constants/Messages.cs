@@ -9,8 +9,10 @@ namespace Bussiness.Constants
 
 		public static string ProductNameInvalid = "Ürün İsmi Geçersiz!";
 
-		internal static string MaintenanceTime = "Sistem bakımda";
+		public static string MaintenanceTime = "Sistem bakımda";
 
-		internal static string ProductsListed = "Ürünler listelendi";
+		public static string ProductsListed = "Ürünler listelendi";
+
+		public static string ProductCountOfCategoryError = "Max 15 olabilir!";
     }
 }
