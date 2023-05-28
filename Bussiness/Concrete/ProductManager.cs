@@ -4,6 +4,7 @@ using Bussiness.Constants;
 using Bussiness.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
+using Core.Utilities.Bussines;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
@@ -31,19 +32,18 @@ namespace Bussiness.Concrete
             //Validation - Kurallarımız, Doğrulama
 
             //Ürünü veritabanına ekliyoruz
-            
 
-            if (CheckIfProductCountOfCategoryCorrect(product.CategoryId).Succes)
-            {
-                if (CheckIfProductNameExists(product.ProductName).Succes)
+            IResult result = BussinesRules.Run(CheckIfProductNameExists(product.ProductName),
+                CheckIfProductCountOfCategoryCorrect(product.CategoryId));
+
+                if (result != null)
                 {
-                    _productDal.Add(product);
+                    return result;
+                }
 
-                    return new SuccessResult(Messages.ProductAdded);
-                } 
-            }
+            _productDal.Add(product);
 
-            return new ErrorResult();
+            return new SuccessResult(Messages.ProductAdded);
 
             //Başarılı sonucu döndürüyoruz
         }
