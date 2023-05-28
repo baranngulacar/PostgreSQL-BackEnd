@@ -16,12 +16,14 @@ namespace Bussiness.Concrete
 {   //Ürün iş mantığını yöneten sınıfımız
     public class ProductManager : IProductService
     {
-        private readonly IProductDal _productDal;
+         private IProductDal _productDal;
+        private ICategoryService _categoryService;
 
         //Constructor methodumuz, bağımlılıkları enjekte ediyoruz.
-        public ProductManager(IProductDal productDal)
+        public ProductManager(IProductDal productDal, ICategoryService categoryService)
         {
             _productDal = productDal;
+            _categoryService = categoryService;
         }
 
         //Add methodu, yeni bir ürün eklemek için kullanılır.
@@ -34,7 +36,7 @@ namespace Bussiness.Concrete
             //Ürünü veritabanına ekliyoruz
 
             IResult result = BussinesRules.Run(CheckIfProductNameExists(product.ProductName),
-                CheckIfProductCountOfCategoryCorrect(product.CategoryId));
+                CheckIfProductCountOfCategoryCorrect(product.CategoryId), CheckIfCategoryLimitExceded());
 
                 if (result != null)
                 {
@@ -120,6 +122,17 @@ namespace Bussiness.Concrete
             if (result)
             {
                 return new ErrorResult(Messages.ProductNameAlreadyExsists);
+            }
+
+            return new SuccessResult();
+        }
+
+        private IResult CheckIfCategoryLimitExceded()
+        {
+            var result = _categoryService.GetAll();
+            if (result.Data.Count>15)
+            {
+                return new ErrorResult(Messages.CategoryLimitExceded);
             }
 
             return new SuccessResult();
