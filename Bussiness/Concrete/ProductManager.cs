@@ -1,5 +1,6 @@
 ﻿using System;
 using Bussiness.Abstract;
+using Bussiness.BusinessAspect.Autofac;
 using Bussiness.Constants;
 using Bussiness.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
@@ -27,6 +28,7 @@ namespace Bussiness.Concrete
         }
 
         //Add methodu, yeni bir ürün eklemek için kullanılır.
+        [SecuredOperation("product.add, admin")]
         [ValidationAspect(typeof(ProductValidator))] 
         public IResult Add(Product product)
         {

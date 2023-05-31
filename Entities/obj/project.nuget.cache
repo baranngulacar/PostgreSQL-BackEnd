@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HimgyRfZT+bAlD3uUlH8cYatgUQV/Xf0uxYSLe5SpVCrinO+19yNss4A3vnOUDQi0qfpdaCx7gjc52GTD2MFMg==",
+  "dgSpecHash": "kkXdLHKkQgn4hgjNbfZiV+Pz5fdrTmeGovj7Z6MYzVnHEYHWLLvc9IbL4egsQuCN61oIaiJ/lqSjeg6fIh2MIA==",
   "success": true,
   "projectFilePath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "/Users/barangulacar/.nuget/packages/microsoft.extensions.primitives/3.1.11/microsoft.extensions.primitives.3.1.11.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/microsoft.identity.client/3.0.8/microsoft.identity.client.3.0.8.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/microsoft.identitymodel.abstractions/6.30.1/microsoft.identitymodel.abstractions.6.30.1.nupkg.sha512",
-    "/Users/barangulacar/.nuget/packages/microsoft.identitymodel.jsonwebtokens/5.5.0/microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",
+    "/Users/barangulacar/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.8.0/microsoft.identitymodel.jsonwebtokens.6.8.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/microsoft.identitymodel.logging/6.30.1/microsoft.identitymodel.logging.6.30.1.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/microsoft.identitymodel.protocols/5.5.0/microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/5.5.0/microsoft.identitymodel.protocols.openidconnect.5.5.0.nupkg.sha512",
@@ -84,7 +84,7 @@
     "/Users/barangulacar/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/system.globalization.calendars/4.3.0/system.globalization.calendars.4.3.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/system.globalization.extensions/4.3.0/system.globalization.extensions.4.3.0.nupkg.sha512",
-    "/Users/barangulacar/.nuget/packages/system.identitymodel.tokens.jwt/5.5.0/system.identitymodel.tokens.jwt.5.5.0.nupkg.sha512",
+    "/Users/barangulacar/.nuget/packages/system.identitymodel.tokens.jwt/6.8.0/system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/system.io.compression/4.3.0/system.io.compression.4.3.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/system.io.compression.zipfile/4.3.0/system.io.compression.zipfile.4.3.0.nupkg.sha512",
