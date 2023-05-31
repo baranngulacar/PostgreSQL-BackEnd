@@ -6,12 +6,12 @@ namespace ConsoleUI;
 class Program
 {
     static void Main(string[] args)
-   {
+    {
        //Data Transformation Object
        //IoC
        //ProductTest();
        //CategoryTest();
-   }
+    }
 
    private static void CategoryTest()
    {
