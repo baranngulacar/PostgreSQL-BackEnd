@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "N4LMelpBT9rJAXQOhSkKObLgecvjlf831JgLnDaOCiHlO6XPipvLhiB7gsCwkK4rIr5VZUMZVht82HIkrefxcw==",
+  "dgSpecHash": "qcNkFa3+roMaIMfwOW3HzZHCDun3tVVzx9LJlGdOBhE7gukWd74z5AzVNWFey/u/Ho7cQdcH2N3kWRXKA2G4ZA==",
   "success": true,
   "projectFilePath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "/Users/barangulacar/.nuget/packages/autofac.extras.dynamicproxy/6.0.0/autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/fluentvalidation/9.5.1/fluentvalidation.9.5.1.nupkg.sha512",
+    "/Users/barangulacar/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/3.1.12/microsoft.aspnetcore.authentication.jwtbearer.3.1.12.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

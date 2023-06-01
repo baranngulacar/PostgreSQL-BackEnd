@@ -160,3 +160,4 @@ C:/Projects/DotNet/PostgreSQL-BackEnd/WebAPI/bin/Debug/net6.0/Autofac.Extensions
 /Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/WebAPI/obj/Debug/net6.0/ref/WebAPI.dll
 /Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/WebAPI/bin/Debug/net6.0/FluentValidation.dll
 /Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/WebAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
