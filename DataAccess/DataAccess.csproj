@@ -11,19 +11,21 @@
     <None Remove="Concrete\" />
     <None Remove="Concrete\InMemory\" />
     <None Remove="Concrete\EntityFramework\" />
+    <None Remove="Concrete\EntityFrameworkConfigurations\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstract\" />
     <Folder Include="Concrete\" />
     <Folder Include="Concrete\InMemory\" />
     <Folder Include="Concrete\EntityFramework\" />
+    <Folder Include="Concrete\EntityFrameworkConfigurations\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entities\Entities.csproj" />
     <ProjectReference Include="..\Core\Core.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.18" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.11" />
   </ItemGroup>
 </Project>

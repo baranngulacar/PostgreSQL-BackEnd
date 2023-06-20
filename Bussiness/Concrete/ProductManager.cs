@@ -82,7 +82,7 @@ namespace Bussiness.Concrete
         }
 
         //GetByUnitPrice methodu, belirli bir fiyat aralığındaki ürünleri getirir.
-        public IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max)
+        public IDataResult<List<Product>> GetByUnitPrice(double min, double max)
         {
             //Belrili bir fiyat aralığındaki ürünleri veritabanından alıyoruz.
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max));
