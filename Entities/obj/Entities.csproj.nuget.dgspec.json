@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj": {}
+    "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj": {}
   },
   "projects": {
-    "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Core/Core.csproj": {
+    "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Core/Core.csproj",
+        "projectUniqueName": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Core/Core.csproj",
+        "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj",
         "packagesPath": "/Users/barangulacar/.nuget/packages/",
-        "outputPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Core/obj/",
+        "outputPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
@@ -87,14 +87,14 @@
         }
       }
     },
-    "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj": {
+    "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj",
+        "projectUniqueName": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj",
+        "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj",
         "packagesPath": "/Users/barangulacar/.nuget/packages/",
-        "outputPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Entities/obj/",
+        "outputPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
@@ -109,8 +109,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Core/Core.csproj": {
-                "projectPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Core/Core.csproj"
+              "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj": {
+                "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj"
               }
             }
           }

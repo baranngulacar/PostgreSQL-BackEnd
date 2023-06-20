@@ -9,8 +9,8 @@ class Program
     {
        //Data Transformation Object
        //IoC
-       //ProductTest();
-       //CategoryTest();
+       ProductTest();
+       //CategoryTestt();
     }
 
    private static void CategoryTest()

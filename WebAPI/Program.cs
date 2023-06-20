@@ -2,6 +2,7 @@ using Autofac;
 using Autofac.Core;
 using Autofac.Extensions.DependencyInjection;
 using Bussiness.DependencyResolvers.Autofac;
+using Core.Utilities.IoC;
 using Core.Utilities.Security.Encryption;
 using Core.Utilities.Security.JWT;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -54,6 +55,8 @@ namespace WebAPI
         {
             services.AddControllers();
 
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -69,6 +72,8 @@ namespace WebAPI
                         ValidateIssuerSigningKey = true,
                         IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                     };
+
+                    ServiceTool.Create(services);
                 });
         }
     }

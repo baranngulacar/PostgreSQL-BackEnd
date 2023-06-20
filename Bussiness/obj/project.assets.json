@@ -7839,11 +7839,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj",
+      "projectUniqueName": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj",
       "projectName": "Bussiness",
-      "projectPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj",
+      "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj",
       "packagesPath": "/Users/barangulacar/.nuget/packages/",
-      "outputPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Bussiness/obj/",
+      "outputPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Bussiness/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
@@ -7858,11 +7858,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj": {
-              "projectPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj"
+            "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj": {
+              "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj"
             },
-            "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj": {
-              "projectPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj"
+            "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj": {
+              "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj"
             }
           }
         }

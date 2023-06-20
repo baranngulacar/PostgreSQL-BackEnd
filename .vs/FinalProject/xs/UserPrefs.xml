@@ -1,17 +1,47 @@
 ﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{B2BB6DCF-CDF9-49DF-B005-C8ABE40649A9}|Default">
-  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleUI/Program.cs">
+    <Files>
+      <File FileName="ConsoleUI/Program.cs" Line="16" Column="38" />
+      <File FileName="Core/Utilities/Results/IResult.cs" />
+      <File FileName="Core/Utilities/Results/DataResult.cs" />
+      <File FileName="Core/Utilities/Results/ErrorDataResult.cs" />
+      <File FileName="Core/Utilities/Results/ErrorResult.cs" />
+      <File FileName="Core/Utilities/Results/IDataResult.cs" />
+      <File FileName="Core/Utilities/Results/Result.cs" />
+      <File FileName="Core/Utilities/Results/SuccessDataResult.cs" />
+      <File FileName="Core/Utilities/Results/SuccessResult.cs" />
+      <File FileName="Bussiness/DependencyResolvers/Autofac/AutofacBusinessModule.cs" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FinalProject" expanded="True" />
+          <Node name="FinalProject" expanded="True">
+            <Node name="Bussiness" expanded="True">
+              <Node name="DependencyResolvers" expanded="True">
+                <Node name="Autofac" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="ConsoleUI" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="Core" expanded="True">
+              <Node name="Utilities" expanded="True">
+                <Node name="Results" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="DataAccess" expanded="True" />
+            <Node name="Entities" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

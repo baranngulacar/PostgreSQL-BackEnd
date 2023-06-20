@@ -7719,11 +7719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Core/Core.csproj",
+      "projectUniqueName": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj",
       "projectName": "Core",
-      "projectPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Core/Core.csproj",
+      "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj",
       "packagesPath": "/Users/barangulacar/.nuget/packages/",
-      "outputPath": "/Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/Core/obj/",
+      "outputPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
