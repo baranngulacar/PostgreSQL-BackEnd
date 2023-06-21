@@ -13,7 +13,7 @@ namespace DataAccess.Concrete.EntityFramework
 	{
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql(@"Server=127.0.0.1;Port=5432;Database=Northwind;User Id=postgres;Password=12345;");
+            optionsBuilder.UseNpgsql(@"Server=127.0.0.1;Port=5432;Database=North2;User Id=postgres;Password=12345;");
         }
 
         public DbSet<Product> Products { get; set; }
@@ -30,14 +30,14 @@ namespace DataAccess.Concrete.EntityFramework
 
         public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
 
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    base.OnModelCreating(modelBuilder);
-        //    modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-        //    //modelBuilder.ApplyConfigurationsFromAssembly(typeof(CategoryConfiguration).Assembly);
-        //    
-        //
-        //}
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            //modelBuilder.ApplyConfigurationsFromAssembly(typeof(CategoryConfiguration).Assembly);
+            
+        
+        }
     }
 
     

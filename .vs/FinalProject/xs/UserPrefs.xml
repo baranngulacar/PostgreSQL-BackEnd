@@ -1,56 +1,17 @@
 ﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{B2BB6DCF-CDF9-49DF-B005-C8ABE40649A9}|Default">
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs">
-    <Files>
-      <File FileName="DataAccess/Concrete/EntityFrameworkConfigurations/CategoryConfiguration.cs" Line="13" Column="20" />
-      <File FileName="DataAccess/Concrete/EntityFramework/NorthwindContext.cs" Line="40" Column="11" />
-      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="18" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="FinalProject" expanded="True" selected="True">
-            <Node name="Bussiness">
-              <Node name="Abstract" expanded="True" />
-              <Node name="BusinessAspect" expanded="True">
-                <Node name="Autofac" expanded="True" />
-              </Node>
-              <Node name="Concrete" expanded="True" />
-              <Node name="DependencyResolvers" expanded="True">
-                <Node name="Autofac" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="Core">
-              <Node name="CrossCuttingConcerns" expanded="True">
-                <Node name="Validation" expanded="True" />
-              </Node>
-              <Node name="DataAccess" expanded="True">
-                <Node name="EntityFramework" expanded="True" />
-              </Node>
-              <Node name="Utilities" expanded="True">
-                <Node name="IoC" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="DataAccess">
-              <Node name="Abstract" expanded="True" />
-              <Node name="Concrete" expanded="True">
-                <Node name="EntityFramework" expanded="True" />
-                <Node name="EntityFrameworkConfigurations" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="Entities">
-              <Node name="Concrete" expanded="True" />
-            </Node>
-          </Node>
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
