@@ -32,20 +32,3 @@ C:/Projects/DotNet/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/ref/DataAccess
 /Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/refint/DataAccess.dll
 /Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/DataAccess.pdb
 /Users/barangulacar/Documents/GitHub/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/ref/DataAccess.dll
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/bin/Debug/net6.0/DataAccess.deps.json
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/bin/Debug/net6.0/DataAccess.dll
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/bin/Debug/net6.0/DataAccess.pdb
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/bin/Debug/net6.0/Core.dll
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/bin/Debug/net6.0/Entities.dll
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/bin/Debug/net6.0/Entities.pdb
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/bin/Debug/net6.0/Core.pdb
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/DataAccess.csproj.AssemblyReference.cache
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfoInputs.cache
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfo.cs
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/DataAccess.csproj.CoreCompileInputs.cache
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/DataAccess.csproj.CopyComplete
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/DataAccess.dll
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/refint/DataAccess.dll
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/DataAccess.pdb
-/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/obj/Debug/net6.0/ref/DataAccess.dll

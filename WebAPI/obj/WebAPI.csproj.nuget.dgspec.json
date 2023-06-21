@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/WebAPI/WebAPI.csproj": {}
+    "/Users/barangulacar/Projects/PostgreSQL-BackEnd/WebAPI/WebAPI.csproj": {}
   },
   "projects": {
-    "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj": {
+    "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj",
+        "projectUniqueName": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj",
         "projectName": "Bussiness",
-        "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj",
+        "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj",
         "packagesPath": "/Users/barangulacar/.nuget/packages/",
-        "outputPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Bussiness/obj/",
+        "outputPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Bussiness/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj": {
-                "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj"
+              "/Users/barangulacar/Projects/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj"
               },
-              "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj": {
-                "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj"
+              "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/Entities.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/Entities.csproj"
               }
             }
           }
@@ -82,18 +82,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj": {
+    "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj",
+        "projectUniqueName": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj",
+        "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj",
         "packagesPath": "/Users/barangulacar/.nuget/packages/",
-        "outputPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/obj/",
+        "outputPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
@@ -136,9 +136,9 @@
               "target": "Package",
               "version": "[9.5.1, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.11, )"
+              "version": "[3.1.32, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
@@ -165,18 +165,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj": {
+    "/Users/barangulacar/Projects/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj",
+        "projectUniqueName": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj",
+        "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/DataAccess/DataAccess.csproj",
         "packagesPath": "/Users/barangulacar/.nuget/packages/",
-        "outputPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/DataAccess/obj/",
+        "outputPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
@@ -191,11 +191,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj": {
-                "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj"
+              "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj"
               },
-              "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj": {
-                "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj"
+              "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/Entities.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/Entities.csproj"
               }
             }
           }
@@ -235,18 +235,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj": {
+    "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj",
+        "projectUniqueName": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj",
+        "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/Entities.csproj",
         "packagesPath": "/Users/barangulacar/.nuget/packages/",
-        "outputPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/obj/",
+        "outputPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
@@ -261,8 +261,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj": {
-                "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj"
+              "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj"
               }
             }
           }
@@ -292,18 +292,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/WebAPI/WebAPI.csproj": {
+    "/Users/barangulacar/Projects/PostgreSQL-BackEnd/WebAPI/WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/WebAPI/WebAPI.csproj",
+        "projectUniqueName": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/WebAPI/WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/WebAPI/WebAPI.csproj",
+        "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/WebAPI/WebAPI.csproj",
         "packagesPath": "/Users/barangulacar/.nuget/packages/",
-        "outputPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/WebAPI/obj/",
+        "outputPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/WebAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
@@ -312,21 +312,21 @@
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj": {
-                "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj"
+              "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Bussiness/Bussiness.csproj"
               },
-              "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj": {
-                "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Core/Core.csproj"
+              "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj"
               },
-              "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj": {
-                "projectPath": "/Users/barangulacar/Documents/Documents - Baran MacBook Pro/GitHub/PostgreSQL-BackEnd/Entities/Entities.csproj"
+              "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/Entities.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/Entities.csproj"
               }
             }
           }
@@ -377,7 +377,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     }

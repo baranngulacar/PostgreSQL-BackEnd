@@ -17,4 +17,3 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
         builder.Property(p => p.ProductName).HasColumnName("product_name");
     }
 }
-

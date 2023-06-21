@@ -28,7 +28,7 @@ namespace Bussiness.Concrete
         }
 
         //Add methodu, yeni bir ürün eklemek için kullanılır.
-        [SecuredOperation("product.add, admin")]
+        //[SecuredOperation("product.add, admin")]
         [ValidationAspect(typeof(ProductValidator))] 
         public IResult Add(Product product)
         {

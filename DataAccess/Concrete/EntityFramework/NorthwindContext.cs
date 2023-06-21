@@ -30,13 +30,14 @@ namespace DataAccess.Concrete.EntityFramework
 
         public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            //base.OnModelCreating(modelBuilder);
-            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-            //modelBuilder.ApplyConfigurationsFromAssembly(typeof(ProductConfiguration).Assembly);
-
-        }
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    base.OnModelCreating(modelBuilder);
+        //    modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        //    //modelBuilder.ApplyConfigurationsFromAssembly(typeof(CategoryConfiguration).Assembly);
+        //    
+        //
+        //}
     }
 
     
