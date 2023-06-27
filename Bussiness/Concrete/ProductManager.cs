@@ -46,7 +46,7 @@ namespace Bussiness.Concrete
 
         }
 
-        
+        [CacheAspect]
         public IDataResult<List<Product>> GetAll()
         {
             var data = _productDal.GetAll();
@@ -64,7 +64,7 @@ namespace Bussiness.Concrete
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id));
         }
 
-        [
+        [CacheAspect]
         [PerformanceAspect(5)]
         public IDataResult<Product> GetById(int ProductId)
         {
