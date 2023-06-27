@@ -26,6 +26,12 @@
     <None Remove="Utilities\Security\JWT\" />
     <None Remove="Extensions\" />
     <None Remove="Utilities\IoC\" />
+    <None Remove="DependencyResolvers\" />
+    <None Remove="CrossCuttingConcerns\Caching\" />
+    <None Remove="CrossCuttingConcerns\Caching\Microsoft\" />
+    <None Remove="CrossCuttingConcerns\Caching\Redis\" />
+    <None Remove="Aspects\Autofac\Caching\" />
+    <None Remove="Aspects\Autofac\Performance\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\" />
@@ -47,6 +53,12 @@
     <Folder Include="Utilities\Security\JWT\" />
     <Folder Include="Extensions\" />
     <Folder Include="Utilities\IoC\" />
+    <Folder Include="DependencyResolvers\" />
+    <Folder Include="CrossCuttingConcerns\Caching\" />
+    <Folder Include="CrossCuttingConcerns\Caching\Microsoft\" />
+    <Folder Include="CrossCuttingConcerns\Caching\Redis\" />
+    <Folder Include="Aspects\Autofac\Caching\" />
+    <Folder Include="Aspects\Autofac\Performance\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="9.5.1" />
@@ -56,5 +68,6 @@
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.30.1" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.32" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
   </ItemGroup>
 </Project>

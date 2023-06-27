@@ -1,15 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Autofac;
-using Autofac.Core;
 using Autofac.Extensions.DependencyInjection;
 using Bussiness.DependencyResolvers.Autofac;
+using Core.DependencyResolvers;
+using Core.Extensions;
 using Core.Utilities.IoC;
 using Core.Utilities.Security.Encryption;
 using Core.Utilities.Security.JWT;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 
-namespace WebAPI
-{
     public class Program
     {
         public static void Main(string[] args)
@@ -57,7 +69,7 @@ namespace WebAPI
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-            var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
+        var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
@@ -72,9 +84,12 @@ namespace WebAPI
                         ValidateIssuerSigningKey = true,
                         IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                     };
-
-                    ServiceTool.Create(services);
                 });
+            services.AddDependencyResolvers(new ICoreModule[]
+            {
+                new CoreModule()
+            });
         }
+
     }
-}
+

@@ -3,6 +3,8 @@ using Bussiness.Abstract;
 using Bussiness.BusinessAspect.Autofac;
 using Bussiness.Constants;
 using Bussiness.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Performance;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Bussines;
@@ -14,29 +16,22 @@ using Entities.DTOs;
 using FluentValidation;
 
 namespace Bussiness.Concrete
-{   //Ürün iş mantığını yöneten sınıfımız
+{ 
     public class ProductManager : IProductService
     {
          private IProductDal _productDal;
         private ICategoryService _categoryService;
 
-        //Constructor methodumuz, bağımlılıkları enjekte ediyoruz.
         public ProductManager(IProductDal productDal, ICategoryService categoryService)
         {
             _productDal = productDal;
             _categoryService = categoryService;
         }
-
-        //Add methodu, yeni bir ürün eklemek için kullanılır.
-        //[SecuredOperation("product.add, admin")]
-        [ValidationAspect(typeof(ProductValidator))] 
+     
+        [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("IProductService.Get")]
         public IResult Add(Product product)
         {
-            //İşKodlarımız - BussinessCodes
-            //Validation - Kurallarımız, Doğrulama
-
-            //Ürünü veritabanına ekliyoruz
-
             IResult result = BussinesRules.Run(CheckIfProductNameExists(product.ProductName),
                 CheckIfProductCountOfCategoryCorrect(product.CategoryId), CheckIfCategoryLimitExceded());
 
@@ -49,49 +44,40 @@ namespace Bussiness.Concrete
 
             return new SuccessResult(Messages.ProductAdded);
 
-            //Başarılı sonucu döndürüyoruz
         }
 
-        //GetAll methodu, tüm ürünleri listeler
+        [CacheAspect]
         public IDataResult<List<Product>> GetAll()
         {
             var data = _productDal.GetAll();
 
-            //Eğer şu an saat 22.00 ise, bakım zamanı hatası döndürüyoruz
             if (DateTime.Now.Hour == 22)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
 
-            //Başarılı sonucu ve verileri döndürüyoruz
             return new SuccessDataResult<List<Product>>(data, "Ürün listesi getirildi.");
         }
 
-        //GetAllByCategoryId methodu, belirli bir kategoriye ait ürünleri listeler
         public IDataResult<List<Product>> GetAllByCategoryId(int id)
         {
-            //Belirli bir kategoriye ait ürünleri veritabanından alıyoruz.
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id));
         }
 
-        //GetById methodu, belirli bir ürünün detaylarını getirir.
+        [CacheAspect]
+        [PerformanceAspect(5)]
         public IDataResult<Product> GetById(int ProductId)
         {
-            //Belirli bir ürünün detaylarını veritabanından alıyoruz.
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == ProductId));
         }
 
-        //GetByUnitPrice methodu, belirli bir fiyat aralığındaki ürünleri getirir.
         public IDataResult<List<Product>> GetByUnitPrice(double min, double max)
         {
-            //Belrili bir fiyat aralığındaki ürünleri veritabanından alıyoruz.
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max));
         }
 
-        //GetProductDetails methodu, ürünlerin detaylı bilgilerini getirir
         public IDataResult<List<ProductDetailDto>> GetProductDetails()
         {
-            // Ürünlerin detaylı bilgilerini veritabanından alıyoruz
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
         }
 
@@ -138,6 +124,20 @@ namespace Bussiness.Concrete
             }
 
             return new SuccessResult();
+        }
+
+        [TransactionalScopeAspect]
+        public IResult AddTransactionalTest(Product product)
+        {
+            Add(product);
+            if (product.UnitPrice < 10)
+            {
+                throw new Exception("");
+            }
+
+            Add(product);
+
+            return null;
         }
     }
 }

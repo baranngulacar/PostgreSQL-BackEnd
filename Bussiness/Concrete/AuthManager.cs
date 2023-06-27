@@ -30,7 +30,7 @@ namespace Bussiness.Concrete
                 LastName = userForRegisterDto.LastName,
                 PasswordHash = passwordHash,
                 PasswordSalt = passwordSalt,
-                Status = true
+                Status = UserStatus.Active
             };
             _userService.Add(user);
             return new SuccessDataResult<User>(user, Messages.UserRegistered);

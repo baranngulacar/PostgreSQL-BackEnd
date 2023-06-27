@@ -15,7 +15,15 @@ namespace Core.Entities.Concrete
 
         public byte[] PasswordHash { get; set; }
 
-        public bool Status { get; set; }
+        public UserStatus Status { get; set; }
+    }
+
+    public enum UserStatus
+    {
+        Active=0,
+        Passive=1,
+        Suspend=2,
+        Pending=3
     }
 }
 
