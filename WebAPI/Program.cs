@@ -48,6 +48,7 @@ using Microsoft.IdentityModel.Tokens;
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
 
             app.UseHttpsRedirection();
 
@@ -57,9 +58,14 @@ using Microsoft.IdentityModel.Tokens;
 
             app.Run();
 
-            app.UseAuthentication();
+            app.UseEndpoints(endpoints =>
+            {
+            endpoints.MapControllers();
+            });
 
-        }
+             app.UseAuthentication();
+
+             }
 
         public IConfiguration Configuration { get; }
 
@@ -68,6 +74,8 @@ using Microsoft.IdentityModel.Tokens;
             services.AddControllers();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            services.AddCors();
 
         var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 

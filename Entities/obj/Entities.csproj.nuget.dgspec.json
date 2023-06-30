@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/Entities.csproj": {}
+    "/Users/barangulacar/Projects/NET/PostgreSQL-BackEnd/Entities/Entities.csproj": {}
   },
   "projects": {
-    "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj": {
+    "/Users/barangulacar/Projects/NET/PostgreSQL-BackEnd/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj",
+        "projectUniqueName": "/Users/barangulacar/Projects/NET/PostgreSQL-BackEnd/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj",
+        "projectPath": "/Users/barangulacar/Projects/NET/PostgreSQL-BackEnd/Core/Core.csproj",
         "packagesPath": "/Users/barangulacar/.nuget/packages/",
-        "outputPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/obj/",
+        "outputPath": "/Users/barangulacar/Projects/NET/PostgreSQL-BackEnd/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
@@ -91,14 +91,14 @@
         }
       }
     },
-    "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/Entities.csproj": {
+    "/Users/barangulacar/Projects/NET/PostgreSQL-BackEnd/Entities/Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/Entities.csproj",
+        "projectUniqueName": "/Users/barangulacar/Projects/NET/PostgreSQL-BackEnd/Entities/Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/Entities.csproj",
+        "projectPath": "/Users/barangulacar/Projects/NET/PostgreSQL-BackEnd/Entities/Entities.csproj",
         "packagesPath": "/Users/barangulacar/.nuget/packages/",
-        "outputPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Entities/obj/",
+        "outputPath": "/Users/barangulacar/Projects/NET/PostgreSQL-BackEnd/Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/barangulacar/.nuget/NuGet/NuGet.Config"
@@ -113,8 +113,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj": {
-                "projectPath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj"
+              "/Users/barangulacar/Projects/NET/PostgreSQL-BackEnd/Core/Core.csproj": {
+                "projectPath": "/Users/barangulacar/Projects/NET/PostgreSQL-BackEnd/Core/Core.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wwPG8V/N6SUq6XyVr6r6qKLmiVGlJk+TuSW2a8+/6d+pk0ZYgkqHelBQkYDzSAYn54OP+dEI/zQoBu/4Oq+Ueg==",
+  "dgSpecHash": "tdlPvOaROhUVkWpU1WRa36oyZ9hWj3Bkg9Bf9nBK1MlTGq+L4zMAwe2tFlhOInUSie4v9ZTMwyJ9z2RTO6kZ/g==",
   "success": true,
-  "projectFilePath": "/Users/barangulacar/Projects/PostgreSQL-BackEnd/Core/Core.csproj",
+  "projectFilePath": "/Users/barangulacar/Projects/NET/PostgreSQL-BackEnd/Core/Core.csproj",
   "expectedPackageFiles": [
     "/Users/barangulacar/.nuget/packages/autofac/7.0.1/autofac.7.0.1.nupkg.sha512",
     "/Users/barangulacar/.nuget/packages/autofac.extensions.dependencyinjection/8.0.0/autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
