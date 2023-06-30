@@ -26,6 +26,8 @@ namespace WebAPI.Controllers
                 return Ok(result);
             }
 
+            Thread.Sleep(5000);
+
             return BadRequest(result);
         }
 
