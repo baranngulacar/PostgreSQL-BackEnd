@@ -57,6 +57,19 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
+        [HttpGet("getbycategory")]
+        public IActionResult GetByCategory(int categoryId)
+        {
+            var result = _productService.GetAllByCategoryId(categoryId);
+
+            if (result.Succes)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest(result);
+        }
+
         [HttpPost("add")]
         public IActionResult Add(Product product)
         {
@@ -64,7 +77,7 @@ namespace WebAPI.Controllers
 
             if (result.Succes)
             {
-                return Ok(result);// result i�inde success d�necek. o da frontend taraf�nda i�lemin sonucunu verecek.
+                return Ok(result);
             }
             return BadRequest(result);
         }

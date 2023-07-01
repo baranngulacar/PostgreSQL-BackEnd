@@ -60,13 +60,15 @@ namespace Bussiness.Concrete
 
         public IDataResult<List<Product>> GetAllByCategoryId(int id)
         {
-            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id));
+            var data = _productDal.GetAll(p => p.CategoryId == id);
+            return new SuccessDataResult<List<Product>>(data);
         }
 
         [PerformanceAspect(5)]
         public IDataResult<Product> GetById(int ProductId)
         {
-            return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == ProductId));
+            var data = _productDal.Get(p => p.ProductId == ProductId);
+            return new SuccessDataResult<Product>(data);
         }
 
         public IDataResult<List<Product>> GetByUnitPrice(double min, double max)
