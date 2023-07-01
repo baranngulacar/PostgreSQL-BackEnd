@@ -1,34 +1,60 @@
-﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{B2BB6DCF-CDF9-49DF-B005-C8ABE40649A9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Bussiness/Concrete/ProductManager.cs">
+﻿<Properties StartupConfiguration="{B2BB6DCF-CDF9-49DF-B005-C8ABE40649A9}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Program.cs">
     <Files>
-      <File FileName="Bussiness/Concrete/ProductManager.cs" Line="126" Column="1" />
+      <File FileName="Bussiness/Concrete/ProductManager.cs" />
       <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" />
       <File FileName="DataAccess/Concrete/EntityFramework/NorthwindContext.cs" />
+      <File FileName="WebAPI/Program.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Abstract/IProductDal.cs" Line="1" Column="1" />
+      <File FileName="Bussiness/Abstract/IProductService.cs" />
+      <File FileName="Bussiness/Abstract/ICategoryService.cs" Line="1" Column="1" />
+      <File FileName="Entities/Concrete/Product.cs" />
+      <File FileName="WebAPI/Controllers/ProductsController.cs" Line="29" Column="15" />
+      <File FileName="WebAPI/Controllers/CategoriesController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/AuthController.cs" Line="1" Column="1" />
+      <File FileName="Bussiness/Concrete/CategoryManager.cs" Line="1" Column="1" />
+      <File FileName="Bussiness/DependencyResolvers/Autofac/AutofacBusinessModule.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinalProject" expanded="True">
             <Node name="Bussiness" expanded="True">
-              <Node name="BusinessAspect" selected="True" />
+              <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True" />
+              <Node name="DependencyResolvers" expanded="True">
+                <Node name="Autofac" expanded="True" />
+              </Node>
             </Node>
             <Node name="Core" expanded="True">
               <Node name="DataAccess" expanded="True">
                 <Node name="EntityFramework" expanded="True" />
               </Node>
             </Node>
+            <Node name="DataAccess" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True">
+                <Node name="EntityFramework" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Entities" expanded="True">
+              <Node name="Concrete" expanded="True" />
+            </Node>
+            <Node name="WebAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

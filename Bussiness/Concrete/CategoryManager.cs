@@ -23,7 +23,6 @@ public class CategoryManager : ICategoryService
 
     public IDataResult<List<Category>> GetAll()
     {
-        //İşKodları
         return new SuccessDataResult<List<Category>> (_categoryDal.GetAll());
     }
 
