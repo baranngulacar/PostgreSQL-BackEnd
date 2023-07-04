@@ -10,7 +10,7 @@ namespace Bussiness.Constants
 
 		public static string ProductNameInvalid = "Ürün İsmi Geçersiz!";
 
-		public static string MaintenanceTime = "Sistem bakımda";
+		public static string MaintenanceTime = "Sistem bakımda dedim lan ne viyana kapısı gibi zorluyorsun";
 
 		public static string ProductsListed = "Ürünler listelendi";
 
